@@ -5,3 +5,6 @@ vue-awesome-swiper   上下轮播轮播距离无限叠加。需要设置高度�
 safari上点击失效
 
 华为手机自带浏览器flex失效
+
+ios安卓失效
+
