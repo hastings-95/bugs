@@ -6,5 +6,5 @@ safari上点击失效
 
 华为手机自带浏览器flex失效
 
-ios安卓失效
+ios安卓margin失效
 
