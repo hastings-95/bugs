@@ -16,7 +16,11 @@ iview 提供了全局关闭对话框 this.$Modal.remove()
 6.百度地图
 API LocalResult 类表示LocalSearch的检索结果 其中province属性返回值 在直辖市（北京，天津） 点击获取地址时返回省会是区县地址
 
-7.echarts wordCloud 词云显示不全标签丢失
+7.echarts使用词云必须先安装依赖 并且在main添加
+import 'echarts-wordcloud/dist/echarts-wordcloud.min.js'
+import 'echarts-wordcloud/dist/echarts-wordcloud.js'
+
+8.echarts wordCloud 词云显示不全标签丢失
  sizeRange 配置字符的范围（array），series设置这个属性就完美解决
 
 
