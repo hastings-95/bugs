@@ -23,6 +23,11 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 8.echarts wordCloud 词云显示不全标签丢失
  sizeRange 配置字符的范围（array），series设置这个属性就完美解决
 
+9.
+
+ 
+ 
+
 
 
 
