@@ -25,6 +25,11 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
  
 9.iview级联BUG 未知解决
 
+10 element upload上传图片时 展示不了已上传的图片的列表
+需要在 :file-list 存入(上传的文件列表, 例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]）;
+然而使用before-upload 中返回的file里没有url的值 ，改为:on-change 里面可返回 url值再保存进入file-list便可展示已上传的文件或者图片
+
+
  
  
 
