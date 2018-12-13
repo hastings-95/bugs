@@ -31,6 +31,7 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 
 11 element 事件不能传递 $event 如一些组件中的change click等 （不懂是不是全部都是？）
 
+12 element upload 会报错Cannot set property 'status' of null 这是什么鸡掰回事？
 
  
  
