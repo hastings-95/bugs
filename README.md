@@ -33,8 +33,7 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 
 12 element upload 会报错Cannot set property 'status' of null 这是什么鸡掰回事？
 
- 
- 
+13 富文本上传需要encodeURI编码
 
 
 
