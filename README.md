@@ -35,6 +35,8 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 
 13 富文本上传需要encodeURI编码
 
+14 Clipboard.js 在安卓的UC浏览器和QQ浏览器下不能复制 IOS所有浏览器都没问题， 安卓的UC浏览器和QQ浏览器会有问题，百度浏览器是没有问题。
+
 
 
 
