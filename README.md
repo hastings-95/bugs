@@ -37,6 +37,8 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 
 14 Clipboard.js 在安卓的UC浏览器和QQ浏览器下不能复制 IOS所有浏览器都没问题， 安卓的UC浏览器和QQ浏览器会有问题，百度浏览器是没有问题。
 
+15 iview select组件 添加配置 label-in-value	 再用on-change监听时会返回两次 一次返回选择的值 第二次返回空
+
 
 
 
