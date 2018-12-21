@@ -23,7 +23,7 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 8.echarts wordCloud 词云显示不全标签丢失
  sizeRange 配置字符的范围（array），series设置这个属性就完美解决
  
-9.iview级联BUG 未知解决
+9.iview级联BUG 当选择第三级的时候不能退回选择相关的第二级
 
 10 element upload上传图片时 展示不了已上传的图片的列表
 需要在 :file-list 存入(上传的文件列表, 例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]）;
