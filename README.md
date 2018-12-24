@@ -39,6 +39,11 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 
 15 iview select组件 添加配置 label-in-value	 再用on-change监听时会返回两次 一次返回选择的值 第二次返回空
 
+16 新项目main.js中 import引入CSS文件报错  
+报错问题是在index中 文件引入路径错误
+原本index中引入错误路径 <script src="./src/main.js"></script> 
+正确引入  <script src="main.js"></script>
+https://www.webpackjs.com/guides/getting-started/#创建一个-bundle-文件  问题解答
 
 
 
