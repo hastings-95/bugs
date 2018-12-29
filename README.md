@@ -45,6 +45,8 @@ import 'echarts-wordcloud/dist/echarts-wordcloud.js'
 正确引入  <script src="main.js"></script>
 https://www.webpackjs.com/guides/getting-started/#创建一个-bundle-文件  问题解答
 
+17 微信网页 js 动态设置 document.title失效  https://www.jianshu.com/p/ce0e829b1bc2
+ 
 
 
 
