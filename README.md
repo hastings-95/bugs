@@ -49,6 +49,8 @@ https://www.webpackjs.com/guides/getting-started/#创建一个-bundle-文件  �
 
 18 iview Tooltip  提示组件放在最顶部，每次移入显示的提示窗口位置会有误差 还未找到什么样式有干扰
 
+19 echarts 文字标题 title 文字align属性失效  title -> textStyle -> align  文字不能居中偏右偏左
+
 
 
 
