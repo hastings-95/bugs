@@ -51,6 +51,26 @@ https://www.webpackjs.com/guides/getting-started/#创建一个-bundle-文件  �
 
 19 echarts 文字标题 title 文字align属性失效  title -> textStyle -> align  文字不能居中偏右偏左
 
+20 echarts pie的移入让移入的块状高亮 
+myChart.dispatchAction({ //高亮
+   type: 'highlight',
+   name: xxx,
+ }) 
+ 但是移入使目标高亮一瞬间立马就消失高亮状态 加上移出目光也添加高亮才解决 并且移入移出都要重新setOption 
+   myChart.on('mouseover', (res)=> {
+      myChart.setOption(option, true);
+       myChart.dispatchAction({
+           type: 'highlight',
+           name: res.name
+       })
+   });   
+    myChart.on('mouseout', (res)=> {
+      myChart.setOption(option, true);
+       myChart.dispatchAction({
+           type: 'highlight',
+           name: res.name
+       })
+   });   
 
 
 
