@@ -72,7 +72,7 @@ myChart.dispatchAction({ //高亮
        })
    });   
 
-21.
+21.element upload会出现跨域，无解。 但是可以在监听组件change时存下file 但是只能展示出文件名 展示不出 图片。
 
 
 
